@@ -9,15 +9,35 @@
 
 <body>
 
-    <input type="button" value="Change Color" onclick="document.bgColor='tomato'" onmouseleave="document.bgColor='aqua'"
-        onmouseenter="document.bgColor='green'">
+
+    <label >Number 1</label>
+    <input type="number" id="number1"><br>
+
+    <label >Number 2</label>
+    <input type="number" id="number2"><br>
+
+    <input type="submit" value="Sum" onclick="doSum()">
+
+
+   
 
     <script>
+       function doSum(){
+        let number1=document.getElementById('number1').value;
+        let number2=document.getElementById('number2').value;
+
+        let nu1ToInt=parseFloat(number1);
+        let nu2ToInt=parseFloat(number2);
+
+        let result=nu1ToInt+nu2ToInt;
+
+        document.write(result);
+      
+
+       }
+
        
-        let x=5
-        x%=5
-        x%=8
-        document.write(x)
+
   
     </script>
 
