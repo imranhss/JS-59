@@ -7,6 +7,13 @@ function submitForm(event) {
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
 
+    let gender=document.querySelector('input[name="gender"]:checked').value;
+
+   
+    
+
+
+
 
 
     let output = "Name: " + rName + "\n";
@@ -14,6 +21,7 @@ function submitForm(event) {
     output += "Email: " + email + "\n";
 
     output += "Password: " + password + "\n";
+    output += "Gender: " + gender + "\n";
 
 
     let newWindow = window.open("", '_blank');
