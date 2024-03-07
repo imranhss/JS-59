@@ -83,8 +83,6 @@ function submitForm(event) {
 
         }
 
-
-
     // End Validation
 
 
