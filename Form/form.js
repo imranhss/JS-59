@@ -14,12 +14,18 @@ function submitForm(event) {
 
     let hoobyValue=[];
 
-    hobby.forEach(
-        function(hobby){
+    for(let index=0; index<hobby.length;index++){
 
-            hoobyValue.push(hobby.value); 
-        }
-    );
+        hoobyValue.push(hobby[index].value);
+        
+    }
+
+    // hobby.forEach(
+    //     function(hobby){
+
+    //         hoobyValue.push(hobby.value); 
+    //     }
+    // );
 
 
 
