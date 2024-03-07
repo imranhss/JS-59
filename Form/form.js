@@ -61,6 +61,28 @@ function submitForm(event) {
             return;
         }
 
+        if(hobby.length==0){
+            alert("Select at least one Hobby");
+            return;
+        }
+
+        if(course==='Choose...'){
+            alert("Select Any Course");
+            return;
+
+        }
+
+        if(dob==""){
+            alert("Dob must be given");
+            return;
+        }
+
+        if(address==""){
+            alert("Address can not be Empty");
+            return;
+
+        }
+
 
 
     // End Validation
