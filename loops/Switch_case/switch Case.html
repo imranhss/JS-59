@@ -12,19 +12,39 @@
 
     <script>
 
-        let dayNumber=parseInt(prompt("Enter number"));
+        // let dayNumber=parseInt(prompt("Enter number"));
 
-        switch(dayNumber){
+        // switch(dayNumber){
 
-            case 1: 
-                    document.write("Sunday");
+        //     case 1: 
+        //             document.write("Sunday");
+        //             break;
+        //     case 2: 
+        //             document.write('Monday');
+        //             break;
+                    
+        //     case 3: 
+        //             document.write('Tuesday');
+        //             break;
+
+        //     default:
+        //     document.write('Wrong Input');
+        // }
+
+
+        let fruits=prompt("Enter Fruits Name");
+
+        switch(fruits.toLocaleLowerCase()){
+
+            case 'mango': 
+                    document.write("Found in Summer");
                     break;
-            case 2: 
-                    document.write('Monday');
+            case "banana": 
+                    document.write('Found All Time');
                     break;
                     
-            case 3: 
-                    document.write('Tuesday');
+            case "jam": 
+                    document.write('Found Summer');
                     break;
 
             default:
