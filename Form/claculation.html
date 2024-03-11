@@ -9,10 +9,10 @@
 
 <body>
     <label for="">Unit Price</label>
-    <input type="text" id="unitPrice"><br>
+    <input type="text" id="unitPrice" oninput="getTotalPrice()" onchange="getActualPrice()" ><br>
 
     <label for="">Quantity</label>
-    <input type="text" id="quantity" onchange="getTotalPrice()" oninput="getTotalPrice()"><br>
+    <input type="text" id="quantity" onchange="getActualPrice()" oninput="getTotalPrice()"><br>
 
     <label for="">Total Price</label>
     <input type="text" id="totalPrice"><br>
